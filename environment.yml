@@ -1,0 +1,15 @@
+name: web_scraping
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pip
+  - ipykernel
+  - pandas
+  - pandas-profiling
+  - numpy
+  - requests
+  - psycopg2
+  - sqlalchemy
+  - pip:
+      - jupyter_black

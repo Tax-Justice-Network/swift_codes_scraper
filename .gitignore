@@ -1,0 +1,16 @@
+# macOS Files
+**.DS_Store
+
+# Jupyter files
+**.ipynb_checkpoints
+
+# Python files
+**__pycache__ 
+
+# Data folder files
+data/final/**
+!data/final/.gitkeep
+data/intermediary/**
+!data/intermediary/.gitkeep
+data/raw/**
+!data/raw/.gitkeep
