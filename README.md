@@ -1,9 +1,9 @@
 <br />
 <p align="center">
-  <h1 align="center">Python Tools</h1>
+  <h1 align="center">Web Scraping</h1>
 </p>
 <p align="center">
-  Multi-purpose Python Tool Kit
+  Python Tool Kit for Web Scraping
   <br />
   <br />
   <br />
@@ -19,35 +19,23 @@
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
-     <li>
-      <a href="#requirements">Requirements</a>
-      <ul>
-        <li><a href="#dataset-fields">Dataset Fields</a></li>
-        <li><a href="#field-names">Field Names</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#methodology">Methodology</a>
-    </li>
     <li>
       <a href="#installation">Installation</a>
-      <ul>
-      <li><a href="#dataset-fields">Dataset Fields</a></li>
-        <li><a href="#field-names">Field Names</a></li>
-      </ul>
-    <li><a href="#project-organization">Project Organization</a></li>
+    <li>
+      <a href="#run">Run</a>
+    </li>
+    <li><a href="#project-structure">Project Structure</a></li>
+    
   </ol>
 </details>
 <br />
 <br />
 
-# TODO
-* Implement Network Validation Rules for Field names random strings
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-TODO
+Simple code to scrap data from websites
 <br />
 <br />
 
@@ -60,12 +48,12 @@ To get a local copy up and running follow these simple steps.
 ```
 conda env create -f environment.yml
 
-conda activate python_tools
+conda activate web_scraping
 ```
 
 ### Visual Studio Code
 
-After running the code above in Terminal, you still have to select the environment in VSCode. Click `F1`, select `Python: Select Interpreter`, click `Enter` and select the one that has `trace` in brackets. If you don't see the environment in the list, reload VS Code.
+After running the code above in Terminal, you still have to select the environment in VSCode. Click `F1`, select `Python: Select Interpreter`, click `Enter` and select the one that has `web_scraping` in brackets. If you don't see the environment in the list, reload VS Code.
 
 <br />
 <br />
@@ -80,9 +68,9 @@ In order to generate the dummy dataset run the following jupyter notebook:
 <br />
 <br />
 
-## Structure 
+## Project Structure
 
-The project is composed of a main notebook named main.ipynb. It produces the dummy dataset.
+The project is composed of a main notebook.
 
 Other files such as helper.py are used as auxiliary code to assist this main notebook.
 
@@ -109,13 +97,8 @@ This is the project structure followed by this project:
 <br />
 <br />
 
-## Built With
+### Built With
 
 * [Python 3.10](https://www.python.org/)
 * [Jupyter Notebook](https://jupyter.org/ )
 
-<br />
-
-This Readme file has been written based on the following templates:
-* [Othneildrew](https://github.com/othneildrew/Best-README-Template)
-* [DrivenData](https://drivendata.github.io/cookiecutter-data-science/)
