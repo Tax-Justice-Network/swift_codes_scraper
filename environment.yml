@@ -9,7 +9,7 @@ dependencies:
   - pandas-profiling
   - numpy
   - requests
-  - psycopg2
-  - sqlalchemy
   - pip:
+      - selenium
+      - lxlm
       - jupyter_black
