@@ -35,7 +35,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Simple code to scrap data from websites
+Simple code to scrap data from websites.
+
+For further work, extract BIC numbers from https://www.theswiftcodes.com/browse-by-country/ to include their bank and country references.
 <br />
 <br />
 
