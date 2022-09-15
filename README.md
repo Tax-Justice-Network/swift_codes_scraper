@@ -1,9 +1,9 @@
 <br />
 <p align="center">
-  <h1 align="center">Web Scraping</h1>
+  <h1 align="center">BIC Numbers Scraper</h1>
 </p>
 <p align="center">
-  Python Tool Kit for Web Scraping
+  Python Tool for Scraping BIC Numbers
   <br />
   <br />
   <br />
@@ -50,12 +50,12 @@ To get a local copy up and running follow these simple steps.
 ```
 conda env create -f environment.yml
 
-conda activate web_scraping
+conda activate bic_numbers_scraper
 ```
 
 ### Visual Studio Code
 
-After running the code above in Terminal, you still have to select the environment in VSCode. Click `F1`, select `Python: Select Interpreter`, click `Enter` and select the one that has `web_scraping` in brackets. If you don't see the environment in the list, reload VS Code.
+After running the code above in Terminal, you still have to select the environment in VSCode. Click `F1`, select `Python: Select Interpreter`, click `Enter` and select the one that has `bic_numbers_scraper` in brackets. If you don't see the environment in the list, reload VS Code.
 
 <br />
 <br />
@@ -90,9 +90,9 @@ This is the project structure followed by this project:
     │
     ├── docs               <- Documents of interest for this project
     │
-    ├── src          <- Source code as Jupyter notebooks
+    ├── src                <- Source code as Jupyter notebooks
     │
-    ├── environment.yml           <- YAML file to create conda environment to run the project
+    ├── environment.yml    <- YAML file to create conda environment to run the project
    
 </code></pre>
 

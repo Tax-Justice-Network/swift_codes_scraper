@@ -1,4 +1,4 @@
-name: web_scraping
+name: bic_numbers_scraper
 channels:
   - conda-forge
 dependencies:
