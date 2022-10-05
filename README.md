@@ -1,9 +1,9 @@
 <br />
 <p align="center">
-  <h1 align="center">BIC Numbers Scraper</h1>
+  <h1 align="center">SWIFT codes Scraper</h1>
 </p>
 <p align="center">
-  Python Tool for Scraping BIC Numbers
+  Python Tool for Scraping SWIFT/BIC codes
   <br />
   <br />
   <br />
@@ -35,9 +35,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Simple code to scrap data from websites.
+This code scraps public available SWIFT codes and its metadata from [theswiftcodes.com](https://www.theswiftcodes.com/).
 
-For further work, extract BIC numbers from https://www.theswiftcodes.com/browse-by-country/ to include their bank and country references.
 <br />
 <br />
 
@@ -45,17 +44,27 @@ For further work, extract BIC numbers from https://www.theswiftcodes.com/browse-
 
 To get a local copy up and running follow these simple steps.
 
+### Clone repository
+
+In your terminal, change the current working directory to the location where you want the cloned directory.
+
+As shown below, type git clone in the terminal, paste the Github repository URL, and press “enter” to create your local clone. 
+
+```
+git clone https://github.com/Tax-Justice-Network/swift_codes_scraper.git
+```
+
 ### Set up environment
 
 ```
 conda env create -f environment.yml
 
-conda activate bic_numbers_scraper
+conda activate swift_codes_scraper
 ```
 
 ### Visual Studio Code
 
-After running the code above in Terminal, you still have to select the environment in VSCode. Click `F1`, select `Python: Select Interpreter`, click `Enter` and select the one that has `bic_numbers_scraper` in brackets. If you don't see the environment in the list, reload VS Code.
+After running the code above in Terminal, you still have to select the environment in VSCode. Click `F1`, select `Python: Select Interpreter`, click `Enter` and select the one that has `swift_codes_scraper` in brackets. If you don't see the environment in the list, reload VS Code.
 
 <br />
 <br />
@@ -74,25 +83,26 @@ In order to generate the dummy dataset run the following jupyter notebook:
 
 The project is composed of a main notebook.
 
-Other files such as helper.py are used as auxiliary code to assist this main notebook.
+Other files such as helper.py might be used as auxiliary code to assist the main notebook.
 
 <br />
 
 This is the project structure followed by this project:
 <pre><code>
 
+  
 ├── LICENSE 
-    ├── README.md          <- The top-level README for developers using this project
-    ├── data
-    │   ├── final          <- Final data and results
-    │   ├── processed      <- Intermediate datasets
-    │   └── raw            <- The original, immutable data dump
-    │
-    ├── docs               <- Documents of interest for this project
-    │
-    ├── src                <- Source code as Jupyter notebooks
-    │
-    ├── environment.yml    <- YAML file to create conda environment to run the project
+├── README.md          <- The top-level README for developers using this project
+├── data
+│   ├── final          <- Final data and results
+│   ├── processed      <- Intermediate datasets
+│   └── raw            <- The original, immutable data dump
+│
+├── docs               <- Documents of interest for this project
+│
+├── src                <- Source code as Jupyter notebooks
+│
+├── environment.yml    <- YAML file to create conda environment to run the project
    
 </code></pre>
 
