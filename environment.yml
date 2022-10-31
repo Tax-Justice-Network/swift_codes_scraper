@@ -10,7 +10,7 @@ dependencies:
   - numpy
   - requests
   - pip:
-      - bs4
+      - beautifulsoup4
       - selenium
       - lxlm
       - jupyter_black
