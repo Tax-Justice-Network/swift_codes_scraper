@@ -71,14 +71,9 @@ After running the code above in Terminal, you still have to select the environme
 
 ## Run
 
-In order to generate the dummy dataset run the following jupyter notebook:
-   ```sh
-   src/main.ipynb
-   ```
-
 To scrape SWIFT data automatically, without interaction, you can issue (launch with `--help` for a detailed explanation of each argument)
 ```sh
-python ./src/swift_scrapper.py --full_bank_info --output_path ./swifts.jsonl
+python ./src/swift_scrapper.py --full_bank_info --output_path ../data/final/swifts.jsonl
 ```
 
 <br />
@@ -86,9 +81,7 @@ python ./src/swift_scrapper.py --full_bank_info --output_path ./swifts.jsonl
 
 ## Project Structure
 
-The project is composed of a main notebook and an automated script.
-
-Other files such as helper.py might be used as auxiliary code to assist the main notebook.
+The project is composed of a main notebook named swift_scraper.py.
 
 <br />
 
